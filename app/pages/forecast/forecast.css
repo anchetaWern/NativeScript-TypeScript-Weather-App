@@ -1,0 +1,44 @@
+Page {
+    font-size: 15px;
+}
+
+.item {
+    padding: 20px 10px;
+}
+
+.day-weather {
+    text-align: center;
+}
+
+.details {
+    horizontal-align: left;
+}
+
+.date {
+    font-size: 20px;
+}
+
+.icon {
+    font-family: 'weathericons';
+    font-size: 30px;
+}
+
+.temp {
+    padding: 3px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.day-temp {
+    background-color: #d0c110;
+}
+
+.night-temp {
+    background-color: #505050;
+}
+
+.small-icon {
+    font-family: 'weathericons';
+    margin-right: 5px;
+    text-align: center;
+}
