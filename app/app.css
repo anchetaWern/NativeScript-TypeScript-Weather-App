@@ -1,14 +1,14 @@
-﻿.header {
-    background-color: #333;
-    color: #fff;
+.header {
+  background-color: #333;
+  color: #fff;
 }
 
 .day {
-    background-color: #f48024;
-    color: #fff;
+  background-color: #f48024;
+  color: #fff;
 }
 
 .night {
-    background-color: #924da3;
-    color: #fff;
+  background-color: #924da3;
+  color: #fff;
 }

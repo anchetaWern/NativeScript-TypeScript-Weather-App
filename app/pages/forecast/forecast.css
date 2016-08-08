@@ -1,44 +1,44 @@
 Page {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .item {
-    padding: 20px 10px;
+  padding: 20px 10px;
 }
 
 .day-weather {
-    text-align: center;
+  text-align: center;
 }
 
 .details {
-    horizontal-align: left;
+  horizontal-align: left;
 }
 
 .date {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .icon {
-    font-family: 'weathericons';
-    font-size: 30px;
+  font-family: 'weathericons';
+  font-size: 30px;
 }
 
 .temp {
-    padding: 3px;
-    text-align: center;
-    font-size: 15px;
+  padding: 3px;
+  text-align: center;
+  font-size: 15px;
 }
 
 .day-temp {
-    background-color: #d0c110;
+  background-color: #d0c110;
 }
 
 .night-temp {
-    background-color: #505050;
+  background-color: #505050;
 }
 
 .small-icon {
-    font-family: 'weathericons';
-    margin-right: 5px;
-    text-align: center;
+  font-family: 'weathericons';
+  margin-right: 5px;
+  text-align: center;
 }

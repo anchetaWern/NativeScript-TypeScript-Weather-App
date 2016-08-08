@@ -10,36 +10,36 @@
       <ActivityIndicator busy="{{ is_loading }}" visibility="{{ is_loading ? 'visible' : 'collapsed' }}" />
       <Repeater items="{{ forecast }}">
         <Repeater.itemTemplate>
-          <GridLayout columns="*,*" rows="auto,auto" cssClass="item">
-            <StackLayout row="0" col="0" class="day-weather">
+          <GridLayout class="item" columns="*,*" rows="auto">
+            <StackLayout class="day-weather" row="0" col="0">
               <Label text="{{ day }}" class="date" />
               <Label text="{{ icon }}" class="icon" />
               <Label text="{{ description }}" textWrap="true" />
             </StackLayout>
-            
-            <GridLayout columns="auto,auto" rows="auto,auto,auto,auto" row="0" col="1" class="details">
-              <GridLayout columns="30,*,*" rows="auto" row="0" col="0">
-                <Label text="{{ $parents['Page'].temperature_icon }}" class="small-icon"  row="0" col="0" />
+
+            <StackLayout class="details" row="0" col="1">
+              <GridLayout columns="30,auto,auto" rows="auto" row="0" col="0">
+                <Label text="{{ $parents['Page'].temperature_icon }}" class="small-icon" row="0" col="0" />
                 <Label text="{{ temperature.day }}" class="temp day-temp" row="0" col="1" />
                 <Label text="{{ temperature.night }}" class="temp night-temp" row="0" col="2" />
               </GridLayout>
 
-              <GridLayout columns="30,*" rows="auto" row="1" col="0">
+              <GridLayout columns="30,auto" rows="auto" row="1" col="0">
                 <Label text="{{ $parents['Page'].wind_icon }}" class="small-icon" row="0" col="0" />
                 <Label text="{{ wind }}" row="0" col="1" />
               </GridLayout>
-              
-              <GridLayout columns="30,*" rows="auto" row="2" col="0">
+
+              <GridLayout columns="30,auto" rows="auto" row="2" col="0">
                 <Label text="{{ $parents['Page'].cloud_icon }}" class="small-icon" row="0" col="0" />
                 <Label text="{{ clouds }}" row="0" col="1" />
               </GridLayout>
-              
-              <GridLayout columns="30,*" rows="auto" row="3" col="0">
+
+              <GridLayout columns="30,auto" rows="auto" row="3" col="0">
                 <Label text="{{ $parents['Page'].pressure_icon }}" class="small-icon" row="0" col="0" />
                 <Label text="{{ pressure }}" row="0" col="1" />
               </GridLayout>
-              
-            </GridLayout>
+
+            </StackLayout>
           </GridLayout>
         </Repeater.itemTemplate>
       </Repeater>

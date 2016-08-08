@@ -4,10 +4,10 @@ import { MainViewModel } from "./main-view-model";
 import navigation = require('../../common/navigation');
 
 export function navigatingTo(args: EventData) {
-    var page = <Page>args.object;
-    page.bindingContext = new MainViewModel();
+  var page = <Page>args.object;
+  page.bindingContext = new MainViewModel();
 }
 
 export function goToForecastPage () {
-    navigation.goToForecastPage();
+  navigation.goToForecastPage();
 }
