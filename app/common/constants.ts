@@ -1,5 +1,5 @@
 export const WEATHER_URL = 'http://api.openweathermap.org/data/2.5/';
-export const WEATHER_APIKEY = '06b02754433450958a62634a25985945';
+export const WEATHER_APIKEY = 'YOUR OPENWEATHER API KEY';
 export const CURRENT_WEATHER_PATH = 'weather/';
 export const WEATHER_FORECAST_PATH = 'forecast/daily/';
 
